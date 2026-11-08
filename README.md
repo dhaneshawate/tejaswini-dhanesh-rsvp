@@ -13,12 +13,12 @@ Email delivery has no per-email service charge when you use a Gmail account with
 5. Copy `.env.example` to `.env.local` and fill in the values:
 
 ```env
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=465
-SMTP_SECURE=true
+SMTP_HOST=SMTP_EMAIL
+SMTP_PORT=YOUR_SMTP_PORT
+SMTP_SECURE=BOOLEAN_VALUE
 SMTP_USER=your-gmail-address@gmail.com
 SMTP_PASS=your-16-character-google-app-password
-RSVP_TO_EMAIL=dhanesh.awate@gmail.com
+RSVP_TO_EMAIL=abc@gmail.com
 ```
 
 `SMTP_USER` is the Gmail account used to send the notification. `RSVP_TO_EMAIL` is where you receive RSVP notifications. Keep `.env.local` private and never add credentials to client-side code or commit them to Git.
