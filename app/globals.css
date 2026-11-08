@@ -94,7 +94,7 @@ h2 em { font-weight: 400; color: var(--rose); }
 .story-image { min-height: 590px; background: url("/images/ring-moment.jpg") center 35% / cover; }
 .story-copy { padding: clamp(55px, 7vw, 100px) clamp(35px, 7vw, 100px); align-self: center; min-width: 0; max-width: 760px; overflow-wrap: anywhere; }
 .story-copy h2 { font-size: clamp(38px, 4vw, 53px); }
-.story-placeholder { color: var(--muted); font-size: 13px; line-height: 2; max-width: 42ch; margin: 17px 0 25px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.story-placeholder { font-family: Georgia, serif; font-style: italic; font-size: 13px; color: var(--rose); line-height: 2; max-width: 42ch; margin: 17px 0 25px; white-space: pre-wrap; overflow-wrap: anywhere; }
 .placeholder-note { display: inline-block; font-family: Georgia, serif; font-style: italic; font-size: 13px; color: var(--rose); margin: 25px 0 0; }
 .signature { font-family: Georgia, serif; font-style: italic; color: var(--wine); font-size: 20px; }
 

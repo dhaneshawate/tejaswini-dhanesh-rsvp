@@ -132,7 +132,7 @@ export default function Home() {
         <div className="story-copy">
           <p className="eyebrow">A LITTLE ABOUT US</p>
           <h2>Every love story<br />has its <em>own magic.</em></h2>
-          <p className="placeholder-note">Your story goes here.</p>
+          {/* <p className="placeholder-note">Your story goes here.</p> */}
           <p className="story-placeholder">Ten years of knowing each other. Seven years of living oceans apart. They were two separate chapters until a mutual friend’s wedding brought them back to the same page. A quiet journey home after the celebration sparked the one conversation that changed everything. On 11th February, they will step into the forever they always belonged in. They never planned this love story, but life had been writing it all along—a love that is finally finding its way home.</p>
           <span className="signature">With love, T & D</span>
         </div>
